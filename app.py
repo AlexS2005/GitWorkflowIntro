@@ -534,3 +534,7 @@ def sweksha_clara_vanessa_emmanuel():
 @app.route("/team_Seline_Youseff_Marine_Jorge")
 def team_Seline_Youseff_Marine_Jorge():
     return render_template('teams/keyshade.html')
+
+@app.route("/teamA")
+def team_A():
+    return render_template('teamsA.html')
